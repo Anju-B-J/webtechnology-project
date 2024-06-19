@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+body{
+    font-family: "Spline Sans", sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+
+}
+
+
+a:hover{
+    color: #F58d17;
+
+}
+img{
+    min-width: 100%;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.shadow-on-hover{
+    transition: all 0.3s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+.btn{
+    border-radius: 0%;
+    padding: 14px 38px;
+
+
+}
+.btn-brand{
+    color: #fff;
+    font-weight: 500;
+    border-color: #F58d17;
+    background-color: #F58d17;
+}
+.btn-brand :hover{
+    border-color: #d37810;
+    background-color: #d37810;
+    color: #fff;
+}
+.slide-1 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('burger1.jpeg');
+    background-size: 60;
+}
+
+.slide-2 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('burgers.avif');
+    background-size: 60;
+}
+
+.bg-cover {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgba(0,0,0,0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+
+}
+#about .divider{
+    width: 150px;
+    height: 2px;
+    display: block;
+    background-color: #F58d17;
+}
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p {
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+
+}
+#menu .nav-pills .nav-link{
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color:#222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+#menu .nav-pills .nav-link.active {
+    background-color: #F58d17;
+    color:#fff
+}
+.reservation-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#fff;
+}
+.custom-btn-color {
+    background-color: #ff9900; /* Custom color code */
+    color: #fff; /* Text color */
+    border-color: #ff9900; /* Border color */
+  }
+
